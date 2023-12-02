@@ -1,0 +1,74 @@
+04.12 - вышлют 2 анкеты.
+08.12 - должно быть готово резюме и мотивационное письмо для ревью HR.
+11.12 - выслать резюме и мотивационное письмо на почту буткемпа.
+13.12 - общая предварительная защита.
+15.12 - выслать презентации для защиты.
+21/22.12 (18:30-19:00) - Оф. защита.
+
+
+1. Представление участников.
+2. Используемые инструменты.
+ - Python3
+ 
+ - Django + DRF
+ - DRF-spectacular
+ - Swagger
+ 
+ - Pytest
+ - APScheduler
+ - SQLAlchemy
+ - Poetry
+
+ - REST
+
+ - Docker
+ - Docker-Compose
+ 
+ - Scrum
+ - Jira
+ - Confluence
+ 
+ - Git
+ - GitLab
+ 
+ - MSSQL
+ - PostgreSQL
+ - Redis
+ 
+ - VScode
+ 
+ - Request
+ - Pendulum
+ 
+3. За что несли ответственность.
+ - Develop Django apps based on business analyst docs.
+ - Enhance remote GIT repository workflows.
+ - Discovering app vulnerabilities through automated test refactoring.
+ - Scrum team collaboration with ceremonies
+ - Regular work method reviews for deadline adherence
+ - Time logging using Jira Tempo
+ - Using Jira and Confluence in development
+ - Using Discord for developer audio and video communication
+ - Ensuring transparent and frequent reporting for fast MR merging
+
+4. Что произвели как продукт(ы).
+ - обновили swagger. стал более читабельным и юзабельным.
+ - реализована гибкая работа с синхронизацией между БД, добавление новых данных преобрело структуру.
+ - написано N тестов, полностью покрыт функционал приложения.
+ - переписали старые тесты с ОРМ Джанги на SQLAchemy.
+ - реализовали систему оповещения учителя об изменениях в расписании.
+ - создали возможность изменить пароль пользователю.
+ 
+-----------
+Cлайды:
+1. Предаставление.
+2. Инструменты.
+3. Инкременты.
+4. Фича.
+-----------
+Фича:
+
+Отдельно выделим реализацию расписания. Для этого был создан эндпоинт, отдащий список занятий конкретного учителя за указанный период. На данный момент это месяц и неделя. Но, архитектура кода позволяет в дальнейшем добавить любой другой период в качестве параметра.
+
+
+
